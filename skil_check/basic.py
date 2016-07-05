@@ -27,12 +27,12 @@ def print_hoge():
             print(num)
 #100から1000までの偶数のみを表示
 def print_even_from_100_to_1000():
-    for x in range(100,1000 + 1):
-        if(x % 2 == 0):
+    for x in range(100,1000 + 1 ,2):
+        '''if(x % 2 == 0):
             print(x)
         else:
-            pass
-
+            pass'''
+        print(x)
 if __name__ == '__main__':
 
     print_self_information()
