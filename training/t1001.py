@@ -1,7 +1,7 @@
 # 与えられた２つのパラメータの合計を２倍したものが６０を超えているかどうか
 def check_sum_2times_over_60(par1, par2):
     twomultiple = (par1 + par2) * 2
-    judge = True if twomultiple >= 60 else False
+    judge = True if twomultiple > 60 else False
     return judge
 
 
