@@ -49,4 +49,4 @@ if __name__ == '__main__':
     tax_include(4600)
     judge_rank(44)
     factorial(12)
-    print(power_of_two(2))
+    power_of_two(2)
